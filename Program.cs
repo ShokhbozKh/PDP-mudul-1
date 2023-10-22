@@ -673,7 +673,6 @@ namespace ConsoleApp1
             #endregion
             #endregion 7
 
-
             #region 8dars
             #region 1
             //Console.Write("tug'ilgan yilingiz:");
@@ -763,76 +762,317 @@ namespace ConsoleApp1
             #region 9dars
             #region 1
 
+            //Console.Write("n=");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] result =  new int[n];
+            //Random random = new Random();
+
+            //for(int i = 0; i < n; i++)
+            //{
+            //    int a = random.Next(1,100);
+            //    if(a % 2 != 0)
+            //    {
+            //        result[i] = a;
+            //    }
+            //    Console.WriteLine(result[i]);
+            //}
             #endregion
             #region 2
+            //Console.Write("k=");
+            //int k = int.Parse(Console.ReadLine());
+            //int[] arr = {1,2, 3, 4, 5,5,6,7,8,9,12,13,15,16,23,334,45,56,78};
+
+            //for(int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] % k == 0)
+            //    {
+            //        Console.Write(arr[i] + " ");
+            //    }
+            //}
             #endregion
             #region 3
+            //Console.Write("n=");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = new int[n];
+
+            //Console.Write("k=");
+            //int k = int.Parse(Console.ReadLine());
+            //Console.Write("l=");
+            //int l = int.Parse(Console.ReadLine());
+
+            //Random random = new Random();
+            //for(int i = 0; i < n; i++)
+            //{
+            //    int j = random.Next(1,10);
+            //    arr[i] = j;
+            //    Console.Write(arr[i] + " ");
+            //}
+            //Console.WriteLine();
+            //int temp = arr[k];
+            //arr[k] = arr[l];
+            //arr[l] = temp;
+            //for(int i = 0;i < n; i++)
+            //{
+            //    Console.Write(arr[i] + " ");
+            //}
             #endregion
             #region 4
+            //Console.Write("son qidirish soni:");
+            //int n = int.Parse(Console.ReadLine());
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 };
+            //bool result = arr.Contains(n);
+            //int  t= 0;
+            //Console.WriteLine(result);
+            //for(int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] == n)
+            //    {
+            //        Console.WriteLine($"qidirilgan son indexsi: {i}");
+            //        t++;
+            //    }
+            //}
+            //if (t==0)
+            //{
+            //    Console.WriteLine("bunday son yuq");
+            //}
+
             #endregion
             #region 5
+            //int sum = 0, p = 1;
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }; 
+
+            //foreach (int i in arr)
+            //{
+            //    sum += i;
+            //    p *= i;
+            //}
+            //Console.WriteLine($"summa:{sum}\nKupaytma:{p}");
             #endregion
             #region 6
+            //int[] arr = { 2, 2, 4, 4, 6, 6, 8, 8,2 ,1 };
+            //int sum = 0, sum1=0;
+
+            //for(int i = 0; i < arr.Length; i++)
+            //{
+            //    sum1 += arr[i];
+            //    if (arr[i] % 2 == 0)
+            //    {
+            //        sum +=arr[i];
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+            //if (sum == sum1)
+            //{
+            //    sum = sum - (arr[0] + arr[arr.Length-1]);
+            //}
+            //Console.WriteLine(sum);
             #endregion
             #region 7
-            #endregion
+            //int[] arr = { 1, 2, 3, 9, 8, 7, 5, 6, 4, 10, 11, 12, 13, 18, 17, 16, 15, 14, 17 };
+            //Array.Sort(arr);
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{ 
+
+            //    Console.Write(arr[i] + " ");
+            //}
+
+        #endregion
 
             #endregion 9
 
-
             #region 10dars
+            #region 1
+            //Console.Write("m=");
+            //int m = int.Parse(Console.ReadLine());
+            //Console.Write("n=");
+            //int n = int.Parse(Console.ReadLine());
+
+            //int[,] arr = new int[m,n];
+
+            //int max = arr[0,0];
+            //int min = arr[0,0];
+            //Random rd = new Random();
+
+            //for(int i = 0; i < m; i++)
+            //{
+            //    for(int j = 0; j < n; j++)
+            //    {
+            //        arr[i, j] = rd.Next(1, 10);
+            //        Console.Write(arr[i,j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+        
+            #endregion
+
+            #region 2
+            //Console.Write("K ustun=");
+            //int k = int.Parse(Console.ReadLine());
+            //Console.Write("m=");
+            //int m = int.Parse(Console.ReadLine());
+            //Console.Write("n=");
+            //int n = int.Parse(Console.ReadLine());
+            //int[,] arr = new int[m, n];
+            //int sum = 0;
+            //int p = 1;
+
+            //Random rd = new Random();
+
+            //for(int i = 0; i < m; i++)
+            //{
+            //    for(int j = 0; j < n; j++)
+            //    {
+            //        arr[i, j] = rd.Next(1, 10);
+            //        Console.Write(arr[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+            //for(int i = 0;i < n; i++)
+            //{
+            //    for(int j = 0;j < n; j++)
+            //    {
+            //        if(k == j)
+            //        {
+            //            sum += arr[i, j];
+            //            p *= arr[i, j];
+            //        }
+            //    }
+            //}
+            //Console.WriteLine($"{k} ustun yig'indi={sum}");
+            //Console.WriteLine($"{k} ustun kupaytma={p}");
 
             #endregion
 
+            #region 3
+            //Console.Write("k=");
+            //int k = int.Parse(Console.ReadLine());
+            //Console.Write("m=");
+            //int m = int.Parse(Console.ReadLine());
+            //Console.Write("n=");
+            //int n = int.Parse(Console.ReadLine());
+            //int[,] arr = new int[m,n];
+            //Random rnd = new Random();
+
+            //for(int i=0; i<m; i++)
+            //{
+            //    for(int j=0; j<n; j++)
+            //    {
+            //        arr[i, j] = rnd.Next(1, 10);
+            //        Console.Write(arr[i,j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.WriteLine();
+
+            //for (int i = 0; i < m; i++)
+            //{
+            //    for(int j = 0; j < n; j++)
+            //    {
+            //        if (arr[i, j] == k)
+            //        {
+            //            if (j > 0 || i>0)
+            //            {
+            //                arr[i, j + 1] = 0;
+            //            }
+            //            else if (j+1 == n)
+            //            {
+            //                arr[i,j-1] = 0;
+            //            }
+            //        }
+            //        Console.Write(arr[i,j] +  " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+
+            #region 4
+            //int sum;
+            
+            //int[][] jagged = new int[3][];
+            //int[] result = new int[jagged.Length];
+            //jagged[0] = new int[3] { 1, 2, 3 };
+            //jagged[1] = new int[4] { 1, 2, 3, 4 };
+            //jagged[2] = new int[5] { 1, 2, 3, 4, 5 };
+            
+            //for(int i = 0; i < jagged.Length; i++)
+            //{
+            //    sum = 0;
+            //    for(int j = 0; j < jagged[i].Length; j++)
+            //    {
+            //        sum += jagged[i][j];
+            //    }
+            //    result[i] = sum;
+            //}
+            //Sum(result);// method pastda
+            #endregion
+
+            #endregion 10
+
 
         }
-        //static int Pow3(int n)// 7 dars 1
-        //{
-        //    return n*n*n;
-        //}
-        //static char Ishora(int n)// 7 dars 2
-        //{
-        //    if (n > 0)
-        //    {
-        //        return '+';
-        //    }
-        //    return '-';
-        //}
-        //static int Asr(int yil)//7 dars 3
-        //{
-        //    return (yil / 100 + 1);
-        //}
 
-        //static int SonNechaXona(int n)// 7 dars 4
+        //-------------------------------------------- barcha methodalr dars  va masala raqami yozilgan
+        //static void Sum(int[] arr)// 10 dars 4
         //{
-        //    int t = 1;
-        //    while(n > 10)
+        //    foreach(int i in arr)
         //    {
-        //        n = n / 10;
-        //        t++;
-        //    }
-        //    return t;
-        //}
-        //static void MinAndMax(int x, int y)// 7 dars 5
-        //{
-        //    if(x > y)
-        //    {
-        //        Console.WriteLine($"x={x}  y={y}");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine($"x={y}  y={x}");
+        //        Console.Write(i + " ");
         //    }
         //}
-        //static void Biography(int age)//8 dars 1
-        //{
-        //    Console.WriteLine("sizning yoshingiz: " + (DateTime.Now.Year - age) + " da");
-        //}
-        //static string NewText(string t1, string t2)// 8-dars 5
-        //{
-        //    string result = t1.Substring(1) + t2.Substring(1);
-        //    return result;
-        //}
+    //static int Pow3(int n)// 7 dars 1
+    //{
+    //    return n*n*n;
+    //}
+    //static char Ishora(int n)// 7 dars 2
+    //{
+    //    if (n > 0)
+    //    {
+    //        return '+';
+    //    }
+    //    return '-';
+    //}
+    //static int Asr(int yil)//7 dars 3
+    //{
+    //    return (yil / 100 + 1);
+    //}
 
-    }
+    //static int SonNechaXona(int n)// 7 dars 4
+    //{
+    //    int t = 1;
+    //    while(n > 10)
+    //    {
+    //        n = n / 10;
+    //        t++;
+    //    }
+    //    return t;
+    //}
+    //static void MinAndMax(int x, int y)// 7 dars 5
+    //{
+    //    if(x > y)
+    //    {
+    //        Console.WriteLine($"x={x}  y={y}");
+    //    }
+    //    else
+    //    {
+    //        Console.WriteLine($"x={y}  y={x}");
+    //    }
+    //}
+    //static void Biography(int age)//8 dars 1
+    //{
+    //    Console.WriteLine("sizning yoshingiz: " + (DateTime.Now.Year - age) + " da");
+    //}
+    //static string NewText(string t1, string t2)// 8-dars 5
+    //{
+    //    string result = t1.Substring(1) + t2.Substring(1);
+    //    return result;
+    //}
+
+
+
+}
 }

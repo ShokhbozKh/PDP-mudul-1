@@ -1071,8 +1071,5 @@ namespace ConsoleApp1
     //    string result = t1.Substring(1) + t2.Substring(1);
     //    return result;
     //}
-
-
-
 }
 }
